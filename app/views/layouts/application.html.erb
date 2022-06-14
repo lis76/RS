@@ -11,10 +11,20 @@
   </head>
 
   <body>
+    <div class="container-fluid container-background">
+        <div class="container">
 
-  <%= link_to "На главную", root_path %>
-  <%= link_to "О нас", pages_about_path %>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://localhost:3000/#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:3000/pages/about">О нас</a>
+              </li>
+            </ul>
 
     <%= yield %>
+        </div>
+    </div>
   </body>
 </html>
