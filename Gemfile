@@ -17,8 +17,8 @@ gem 'tzinfo-data', platforms: %i[ mingw mswin x64_mingw jruby ]
 
 group :development do
   gem 'debug', platforms: %i[ mri mingw x64_mingw ]
-  gem 'web-console'
   gem 'sqlite3'
+  gem 'web-console'
 end
 
 group :production do
